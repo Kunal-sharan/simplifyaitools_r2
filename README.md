@@ -45,13 +45,13 @@ A full-stack web application for browsing, filtering, and favoriting AI tools.
 
 ### Favorites Page
 
-![[Pasted image 20250618155305.png]]
+![fav](screenshots/fav.png)
 
-### Dark Mode
+### Dark\Light Mode
 
-![[Pasted image 20250618155332.png]]
-![[Pasted image 20250618155351.png]]
+![dark](screenshots/dark.png)
+![light](screenshots/light.png)
 
 ### Mobile View
 
-![[Pasted image 20250618155428.png]]
+![mob](screenshots/mob.png)
