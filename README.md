@@ -41,7 +41,7 @@ A full-stack web application for browsing, filtering, and favoriting AI tools.
 
 ### All Tools Page
 
-![[Pasted image 20250618155230.png]]
+![[screenshots/all_tools.png]]
 
 ### Favorites Page
 
