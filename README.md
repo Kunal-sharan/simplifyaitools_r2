@@ -16,7 +16,7 @@ A full-stack web application for browsing, filtering, and favoriting AI tools.
 1. **Clone the repository**
     
     ```bash
-    git clone [your-github-repo-url]
+    git clone https://github.com/Kunal-sharan/simplifyaitools_r2.git
     ```
     
 2. **Start the backend server**
