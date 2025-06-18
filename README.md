@@ -34,8 +34,50 @@ A full-stack web application for browsing, filtering, and favoriting AI tools.
     npm i
     npm run dev
     ```
-    
 
+## API Endpoints
+
+### Base URL: `http://localhost:5000/api/tools`
+
+#### 1. `GET /api/tools`
+- **Description:** Fetch all AI tools or filter by category.
+- **Query Parameters:**
+  - `category` *(optional)* – filter tools by category name (case-insensitive)
+- **Example:**
+  ```bash
+  curl "http://localhost:5000/api/tools?category=Writing"
+  ```
+
+#### 2. `GET /api/tools/favorites`
+- **Description:** Retrieve a list of favorited tool IDs.
+- **Example:**
+  ```bash
+  curl http://localhost:5000/api/tools/favorites
+  ```
+
+#### 3. `POST /api/tools/favorites`
+- **Description:** Add a tool to favorites.
+- **Request Body (JSON):**
+  ```json
+  {
+    "toolId": 3
+  }
+  ```
+- **Example:**
+  ```bash
+  curl -X POST http://localhost:5000/api/tools/favorites \
+       -H "Content-Type: application/json" \
+       -d '{"toolId": 3}'
+  ```
+
+#### 4. `DELETE /api/tools/favorites/:toolId`
+- **Description:** Remove a tool from favorites by ID.
+- **URL Parameter:**
+  - `toolId` – ID of the tool to remove
+- **Example:**
+  ```bash
+  curl -X DELETE http://localhost:5000/api/tools/favorites/3
+  ```
 
 ## Screenshots
 

@@ -60,7 +60,7 @@ app.get('/api/tools/favorites', async (req, res) => {
 app.post('/api/tools/favorites/', async (req, res) => {
   try {
     const { toolId } = req.body;
-    console.log(req.body)
+    // console.log(req.body)
     const favdb = await readFavDB();
 
     if (favdb.includes(toolId)) {
