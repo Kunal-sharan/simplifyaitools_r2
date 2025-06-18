@@ -16,7 +16,7 @@ A full-stack web application for browsing, filtering, and favoriting AI tools.
 1. **Clone the repository**
     
     ```bash
-    git clone [your-github-repo-url]
+    git clone https://github.com/Kunal-sharan/simplifyaitools_r2.git
     ```
     
 2. **Start the backend server**
@@ -41,17 +41,17 @@ A full-stack web application for browsing, filtering, and favoriting AI tools.
 
 ### All Tools Page
 
-![[Pasted image 20250618155230.png]]
+![all_tools](screenshots/all_tools.png)
 
 ### Favorites Page
 
-![[Pasted image 20250618155305.png]]
+![fav](screenshots/fav.png)
 
-### Dark Mode
+### Dark\Light Mode
 
-![[Pasted image 20250618155332.png]]
-![[Pasted image 20250618155351.png]]
+![dark](screenshots/dark.png)
+![light](screenshots/light.png)
 
 ### Mobile View
 
-![[Pasted image 20250618155428.png]]
+![mob](screenshots/mob.png)
